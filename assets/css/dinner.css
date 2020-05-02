@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.dropbtn {
+  color: #F00202;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  font-family: 'Merienda', 'cursive';
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: inherit;
+}
+
+.content #drp {
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+  display: block;
+}
+
+.content #drp:hover {
+  background-color: white;
+}
+
+.dropdown:hover .content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+a {
+  font-size: 20px;
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+}
+
+a:hover {
+  font-size: 150%;
+  cursor: pointer;
+
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  color: #1E8B44;
+  font-family: 'Merienda', 'cursive';
+  margin-top: 10px;
+}
+.container {
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-left: 100px;
+  padding: 30px;
+}
+
+#friedrice, #combo, #entree, #noodles {
+  align-items: center;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  padding-top: 25px
+}
+
+
+
+ol {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2;
+}
+
+ul {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2;
+  column-gap: 250px;
+
+}
+
+h1 {
+  color: #1E8B44;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #1E8B44;
+  word-spacing: 7px;
+  padding-top: 5px;
+
+}
+
+h3 {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

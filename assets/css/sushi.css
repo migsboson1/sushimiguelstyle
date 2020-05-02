@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.dropbtn {
+  color: #F00202;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  font-family: 'Merienda', 'cursive';
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: inherit;
+}
+
+.content #drp {
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+  display: block;
+}
+
+.content #drp:hover {
+  background-color: white;
+}
+
+.dropdown:hover .content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+a {
+  color: #F00202;
+  font-size: 20px;
+  font-family: 'Merienda', cursive;
+}
+a:hover {
+  font-size: 150%;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: #1E8B44;
+  margin: 5px;
+  font-size: 55px;
+  font-family: 'Merienda', 'cursive';
+  margin-top: 10px;
+
+}
+.sushirolls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+
+}
+
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.info {
+  box-sizing: border-box;
+  background: black;
+  width: 100%;
+  display: none;
+}
+
+h3 {
+  color: #1E8B44;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+
+}

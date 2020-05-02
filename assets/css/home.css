@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.dropbtn {
+  color: #F00202;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  font-family: 'Merienda', 'cursive';
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: inherit;
+}
+
+.content #drp {
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+  display: block;
+}
+
+.content #drp:hover {
+  background-color: white;
+}
+
+.dropdown:hover .content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+a:hover {
+  font-size: 150%;
+  cursor: pointer;
+}
+
+a {
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+  font-size: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Merienda', 'cursive';
+}
+
+#sushi {
+  color: #F00202;
+  justify-content: space-between;
+  margin: 5px;
+  font-size: 55px;
+  padding-right: 10px;
+}
+
+#MS {
+  color: #1E8B44;
+  justify-content: space-between;
+  margin: 5px;
+  font-size: 55px;
+}
+
+#video {
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+
+}
+
+#colton {
+  text-align: center;
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+}
+
+#fontana {
+  text-align: center;
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+}
+
+#moval {
+  text-align: center;
+  color: #F00202;
+  font-family: 'Merienda', 'cursive';
+}
+
+h3 {
+  color: #1E8B44;
+}

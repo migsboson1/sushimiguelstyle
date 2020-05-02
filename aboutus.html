@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/aboutus.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ duration: 10 })
+    </script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <title>Sushi Miguel's Style</title>
+    <style>
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: grey;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="Navbar">
+      <div id="navitem">
+        <a href="index.html" style= "text-decoration:none;"> HOME </a>
+      </div>
+      <div id="navitem">
+        <a href="sushirolls.html" style= "text-decoration:none;"> SUSHI ROLLS</a>
+      </div>
+      <div id="navitem">
+        <a href="nigiri.html" style= "text-decoration:none;"> NIGIRI AND SASHIMI </a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" >LUNCH & DINNER</button>
+        <div class="content">
+          <a href="appetizer.html" id="drp"> APPETIZERS </a>
+          <a href="lunch.html" id="drp"> LUNCH MENU </a>
+          <a href="dinner.html" id="drp"> DINNER MENU </a>
+        </div>
+      </div>
+      <div id="navitem">
+        <a href="aboutus.html" style="text-decoration:none;">WHO IS MIGUEL</a>
+      </div>
+    </div>
+    <header class="title">
+      HIS STORY
+    </header>
+    <div class="container">
+    <div class="text">
+    <p>Miguel migrated to the states from Mexico when he was 18 years old.
+      He had no family, only one friend, and an immense determination to help
+      his family back home. After a few months of searching for a job, he was blessed
+      to have found a position as a dish washer at a Japanese restaurant called Sayaka. His
+     hard work over the years gradually moved him up to a position as a suhi chef
+     where he began to learn the art of sushi. He stayed loyal with Sayaka and worked there for
+      more than 25 years.
+      </p>
+      </div>
+    <div class="pic">
+      <img src="assets/img/migs.jpg" width="" alt="">
+    </div>
+    </div>
+    <div class="text">
+      <p>When the business owners of Sayaka decided to retire and
+      sell the restaurant, he made the bold choice of opening his own sushi restaurant.
+      Once he had his own restaurant, he had the freedom and creativity to fuse what
+      he had learned over the years with his own Mexican culture. Miguel offers delicious
+      and traditional sushi as well a unique, fused style known as "miguel style" sushi.
+    </p>
+    </div>
+    <div class="pic">
+      <img src="assets/img/migs2.jpg" alt="">
+
+    </div>
+
+    <script>
+    ScrollReveal().reveal('.text', {delay: 1000, duration: 1000})
+    ScrollReveal().reveal('.pic', {delay: 1000, duration: 1000})
+    </script>
+  </body>
+</html>
