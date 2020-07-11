@@ -11,8 +11,21 @@ nav {
   align-items: center;
 }
 
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
+}
 
+.navlinks li {
+  list-style: none;
+}
 
+.burger div {
+  width: 25px;
+  height: 5px;
+  background-color: #F00202;
+}
 .content {
   display: none;
   position: absolute;
@@ -89,13 +102,6 @@ h1 {
   text-decoration: underline;
 }
 
-@media screen and (max-width:600px) {
-  .Navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-  }
+/* @media screen and (max-width:600px) {
 
-}
+} */
