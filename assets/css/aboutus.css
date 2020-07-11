@@ -65,11 +65,13 @@ a {
 .pic {
   display: flex;
   flex-direction: row;
+  align-content: center;
 }
 .pic img {
   width: 600px;
   transform: translate(70%, 3%);
   padding-bottom: 40px;
+  align-content: center;
 
 }
 
@@ -87,4 +89,20 @@ p {
 
 html.sr .load-hidden {
   visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .Navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .pic {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+
 }
