@@ -76,6 +76,8 @@ a {
 
 #video {
   display: flex;
+  width:750px;
+  height: 450px;
   flex-direction: row;
   margin-left: 350px;
 
@@ -110,7 +112,7 @@ h3 {
   .title {
     font-size: 150%;
   }
-  
+
   a, .dropbtn, .content {
     font-size: 60%;
   }
@@ -118,6 +120,12 @@ h3 {
   #navitem {
     display: flex;
     width: 10%;
+  }
+
+  video {
+    width: 100%;
+    max-width: 280px;
+    height: 245px;
   }
 
 }
