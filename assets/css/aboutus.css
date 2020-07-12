@@ -72,7 +72,6 @@ a {
   transform: translate(70%, 3%);
   padding-bottom: 40px;
   align-content: center;
-
 }
 
 p {
@@ -87,22 +86,37 @@ p {
   /* overflow: hidden; */
 }
 
-html.sr .load-hidden {
-  visibility: hidden;
-}
-
-@media screen and (max-width: 600px) {
-  .Navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
   }
+
   .pic {
     display: flex;
     flex-direction: row;
     align-content: center;
   }
+  .pic img {
+    width: 75%;
+    transform: translate(16%, 3%);
+    padding-bottom: 40px;
+    align-content: center;
+  }
+  .title {
+    font-size: 150%;
+  }
 
+  a, .dropbtn, .content {
+    font-size: 60%;
+  }
+  .Navbar {
+    padding: 2%;
+  }
+  #navitem {
+    display: flex;
+    width: 10%;
+  }
 }
