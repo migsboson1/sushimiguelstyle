@@ -102,3 +102,22 @@ a {
 h3 {
   color: #1E8B44;
 }
+
+@media screen and (max-width 786px) {
+  .Navbar {
+    padding: 2%;
+  }
+  .title {
+    font-size: 150%;
+  }
+  
+  a, .dropbtn, .content {
+    font-size: 60%;
+  }
+
+  #navitem {
+    display: flex;
+    width: 10%;
+  }
+
+}
