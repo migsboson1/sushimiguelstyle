@@ -98,10 +98,10 @@ p {
     display: flex;
     flex-direction: row;
     align-content: center;
-    transform: translate(20%, 10%);
+    transform: translate(15%, 5%);
     width: 100%;
     max-width: 280px;
-    height: 250px;
+    height: 150px;
   }
   .title {
     font-size: 150%;
