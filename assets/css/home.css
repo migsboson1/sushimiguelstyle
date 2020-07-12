@@ -109,7 +109,7 @@ h3 {
   .Navbar {
     padding: 2%;
   }
-  .title {
+  #sushi, #MS {
     font-size: 150%;
   }
 
@@ -123,9 +123,14 @@ h3 {
   }
 
   video {
+    display: flex;
     width: 100%;
-    max-width: 280px;
-    height: 245px;
+    max-width: 300px;
+    height: auto;
+    transform: translate(-100%, 2%);
+  }
+  #colton, #fontana, #moval {
+    font-size: 70%;
   }
 
 }
