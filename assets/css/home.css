@@ -105,7 +105,7 @@ h3 {
   color: #1E8B44;
 }
 
-@media screen and (max-width 786px) {
+@media screen and (max-width: 786px) {
   .Navbar {
     padding: 2%;
   }
