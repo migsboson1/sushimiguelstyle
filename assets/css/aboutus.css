@@ -98,12 +98,15 @@ p {
     display: flex;
     flex-direction: row;
     align-content: center;
-  }
-  .pic img {
     max-width: 100%;
     transform: translate(16%, 3%);
     padding-bottom: 40px;
     align-content: center;
+  }
+  img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
   }
   .title {
     font-size: 150%;
