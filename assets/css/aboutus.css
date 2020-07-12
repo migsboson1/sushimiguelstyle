@@ -94,11 +94,10 @@ p {
     margin-top: 2%;
   }
 
-  .pic {
+  .pic img {
     display: flex;
     flex-direction: row;
     align-content: center;
-    max-width: 100%;
     transform: translate(16%, 3%);
     padding-bottom: 40px;
     align-content: center;
