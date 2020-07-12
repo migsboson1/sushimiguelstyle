@@ -78,8 +78,7 @@ a {
   display: flex;
   width:750px;
   height: 450px;
-  flex-direction: row;
-  margin-left: 350px;
+  transform: translate(18%, 2%);
 
 }
 
@@ -124,10 +123,10 @@ h3 {
 
   video {
     display: flex;
+    margin-top: -150px;
     width: 100%;
     max-width: 300px;
     height: auto;
-    transform: translate(-100%, 2%);
   }
   #colton, #fontana, #moval {
     font-size: 70%;
