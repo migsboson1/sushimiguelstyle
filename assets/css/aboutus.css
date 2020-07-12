@@ -101,8 +101,8 @@ p {
     transform: translate(20%, 10%);
     padding-bottom: 40px;
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    max-width: 280px;
+    height: 250px;
   }
   .title {
     font-size: 150%;
