@@ -100,7 +100,7 @@ p {
     align-content: center;
   }
   .pic img {
-    width: 75%;
+    max-width: 100%;
     transform: translate(16%, 3%);
     padding-bottom: 40px;
     align-content: center;
