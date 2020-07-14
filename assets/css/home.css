@@ -125,9 +125,9 @@ h3 {
   #video {
     display: flex;
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
     height: auto;
-    transform: translate(-100%, 2%);
+    margin: auto;
   }
 
   #colton, #fontana, #moval {
