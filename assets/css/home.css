@@ -125,8 +125,9 @@ h3 {
     display: flex;
     margin-top: -150px;
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     height: auto;
+    /* transform: translate(-100%, 2%); */
   }
   #colton, #fontana, #moval {
     font-size: 70%;
