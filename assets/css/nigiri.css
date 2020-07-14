@@ -75,7 +75,7 @@ a:hover {
   justify-content: space-between;
   margin-right: 60px;
   margin-left: 100px;
-  padding: 30px;
+  /* padding: 30px; */
   /* align-items: center; */
 }
 
@@ -102,4 +102,35 @@ h1 {
 
 h2 {
   color: #1E8B44;
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    padding: 2%;
+  }
+
+  a, .dropbtn, .content {
+    font-size: 60%;
+  }
+
+  #navitem {
+    display: flex;
+    width: 10%;
+  }
+  .container {
+    margin: auto;
+    font-size: 65%;
+  }
+
+  #title {
+    font-size: 150%;
+  }
+
+  ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    column-gap: 10%;
+  }
 }
