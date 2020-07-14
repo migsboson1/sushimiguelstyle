@@ -109,3 +109,34 @@ h3 {
   color: white;
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    padding: 2%;
+  }
+
+  a, .dropbtn, .content {
+    font-size: 60%;
+  }
+
+  #navitem {
+    display: flex;
+    width: 10%;
+  }
+  .container {
+    margin: auto;
+    font-size: 65%;
+  }
+
+  #title {
+    font-size: 150%;
+  }
+
+  ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    column-gap: 10%;
+  }
+}
