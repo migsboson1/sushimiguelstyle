@@ -114,7 +114,12 @@ h2 {
     display: flex;
     width: 10%;
   }
+
+  a, .dropbtn, .content {
+    font-size: 60%;
+  }
+  
   header {
-    font-size: 70%;
+    font-size: 90%;
   }
 }
