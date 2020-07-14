@@ -104,3 +104,17 @@ h2 {
   font-family: 'Julius Sans One', sans-serif;
 
 }
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    padding: 2%;
+  }
+  #navitem {
+    /* Scale down the navbar items to 10% of original size */
+    display: flex;
+    width: 10%;
+  }
+  header {
+    font-size: 70%;
+  }
+}
