@@ -83,6 +83,7 @@ p {
   font-size: 28px;
   letter-spacing: 4px;
   line-height: 1.6;
+  font-weight: bolder;
   /* overflow: hidden; */
 }
 
@@ -92,6 +93,7 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+    font-weight: bolder;
   }
 
   .pic img {
