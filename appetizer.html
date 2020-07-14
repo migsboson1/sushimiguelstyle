@@ -27,36 +27,28 @@
     </style>
   </head>
   <body>
-    <nav>
-      <ul class= "navlinks">
-        <li>
-          <a href="index.html" style= "text-decoration:none;"> HOME PAGE  </a>
-        </li>
-        <li>
-          <a href="sushirolls.html" style= "text-decoration:none;"> SUSHI ROLLS </a>
-        </li>
-        <li>
-          <a href="nigiri.html" style= "text-decoration:none;"> NIGIRI & SASHIMI </a>
-        </li>
-        <li>
-          <a href="appetizer.html" style= "text-decoration:none;"> APPETIZERS & SALADS</a>
-        </li>
-        <li>
-          <a href="lunch.html" style= "text-decoration:none;"> LUNCH MENU </a>
-        </li>
-        <li>
-          <a href="dinner.html" style= "text-decoration:none;"> DINNER MENU </a>
-        </li>
-        <li>
-          <a href="aboutus.html" style="text-decoration:none;">WHO IS MIGUEL</a>
-        </li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <div class="Navbar">
+      <div id="navitem">
+        <a href="index.html" style= "text-decoration:none;"> HOME </a>
       </div>
-      </nav>
+      <div id="navitem">
+        <a href="sushirolls.html" style= "text-decoration:none;"> SUSHI ROLLS</a>
+      </div>
+      <div id="navitem">
+        <a href="nigiri.html" style= "text-decoration:none;"> NIGIRI AND SASHIMI </a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" >LUNCH & DINNER</button>
+        <div class="content">
+          <a href="appetizer.html" id="drp"> APPETIZERS </a>
+          <a href="lunch.html" id="drp"> LUNCH MENU </a>
+          <a href="dinner.html" id="drp"> DINNER MENU </a>
+        </div>
+      </div>
+      <div id="navitem">
+        <a href="aboutus.html" style="text-decoration:none;">WHO IS MIGUEL</a>
+      </div>
+    </div>
     <div id="title">
       APPETIZERS
     </div>

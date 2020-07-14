@@ -101,7 +101,7 @@ h1 {
 }
 
 @media screen and (max-width:768px) {
-  .navlinks{
+  /* .navlinks{
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -111,14 +111,25 @@ h1 {
     align-items: center;
     width: 50%;
     /* transform: translateX(100%); */
-  }
-  .navlinks li {
+  /* } */ */
+  /* .navlinks li {
     opacity: 0;
+  } */
+
+  /* .burger {
+    display: block;
+  } */
+  a, .dropbtn, .content {
+    font-size: 65%;
+  }
+  .Navbar {
+    padding: 2%;
+  }
+  #navitem {
+    display: flex;
+    width: 10%;
   }
 
-  .burger {
-    display: block;
-  }
   #title{
     font-size: 120%;
   }
