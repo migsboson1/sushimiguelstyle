@@ -79,6 +79,7 @@ a {
   width:750px;
   height: 450px;
   transform: translate(18%, 2%);
+  margin-left: 350px;
 
 }
 
@@ -127,7 +128,7 @@ h3 {
     width: 100%;
     max-width: 320px;
     height: auto;
-    /* transform: translate(-100%, 2%); */
+    transform: translate(-100%, 2%);
   }
   #colton, #fontana, #moval {
     font-size: 70%;
