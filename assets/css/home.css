@@ -121,7 +121,7 @@ h3 {
     width: 10%;
   }
 
-  video {
+  #video {
     display: flex;
     margin-top: -150px;
     width: 100%;
