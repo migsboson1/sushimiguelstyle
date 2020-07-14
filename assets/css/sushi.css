@@ -78,6 +78,8 @@ header {
 
 
 img {
+  width: 380px;
+  height: 280px;
   max-width: 100%;
   max-height: auto;
 }
@@ -118,8 +120,26 @@ h2 {
   a, .dropbtn, .content {
     font-size: 60%;
   }
-  
+
   header {
-    font-size: 90%;
+    display: flex;
+    font-size: 120%;
+  }
+
+  /* The sushi rolls container dictates the orientation of the images it contains
+  I changed the orientation to a column when users are using a mobile device*/
+  .sushirolls{
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+   }
+
+   .roll {
+     width: auto;
+   }
+  img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
   }
 }
