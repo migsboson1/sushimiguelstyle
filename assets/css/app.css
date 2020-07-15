@@ -102,7 +102,7 @@ h1 {
 }
 
 @media screen and (max-width: 1024px) {
-  .navlinks {
+  #navitem {
     width: 85%;
   }
 
@@ -113,6 +113,7 @@ h1 {
     font-size: 65%;
   }
   .Navbar {
+    display: flex;
     padding: 2%;
   }
   #navitem {
