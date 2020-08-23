@@ -26,8 +26,9 @@ body {
 .content {
   display: none;
   position: absolute;
-  background-color: inherit;
+  background-color: black;
   min-width: inherit;
+  margin: 10px
 }
 
 .content #drp {
