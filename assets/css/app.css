@@ -1,11 +1,12 @@
 body {
-  background-color: black;
+  background-color: white;
   margin: 0px;
   padding: 0px;
 
 }
 
 .Navbar {
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,7 +17,7 @@ body {
 .dropbtn {
   color: #F00202;
   font-size: 20px;
-  background-color: black;
+  background-color: inherit;
   border: none;
   font-family: 'Merienda', 'cursive';
 }
@@ -24,7 +25,7 @@ body {
 .content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: inherit;
   min-width: inherit;
 }
 
@@ -35,15 +36,15 @@ body {
 }
 
 .content #drp:hover {
-  background-color: white;
+  background-color: inherit;
 }
 
 .dropdown:hover .content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: white;}
+.dropdown:hover .dropbtn {background-color: inherit;}
 
 a:hover {
-  font-size: 150%;
+  font-size: 130%;
   cursor: pointer;
 }
 
@@ -54,7 +55,7 @@ a {
 }
 
 a:hover {
-  font-size: 150%;
+  font-size: 130%;
   cursor: pointer;
 }
 
@@ -62,7 +63,7 @@ a:hover {
   display: flex;
   justify-content: center;
   font-size: 55px;
-  color: #1E8B44;
+  color: #F00202;
   font-family: 'Merienda', 'cursive';
   margin-top: 10px;
 }
@@ -75,7 +76,6 @@ a:hover {
 }
 
 #items, #salad {
-  color: #1E8B44;
   font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -88,7 +88,7 @@ ul {
 }
 
 h3 {
-  color: white;
+  color: black;
   padding-bottom: 10px;
 }
 
@@ -97,6 +97,7 @@ h2 {
 }
 
 h1 {
+  color: #F00202;
   padding-top: 10px;
   text-decoration: underline;
 }

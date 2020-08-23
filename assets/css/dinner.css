@@ -1,11 +1,12 @@
 body {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 0;
 
 }
 
 .Navbar {
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,7 +16,7 @@ body {
 .dropbtn {
   color: #F00202;
   font-size: 20px;
-  background-color: black;
+  background-color: inherit;
   border: none;
   font-family: 'Merienda', 'cursive';
 }
@@ -23,7 +24,7 @@ body {
 .content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: inherit;
   min-width: inherit;
 }
 
@@ -34,12 +35,12 @@ body {
 }
 
 .content #drp:hover {
-  background-color: white;
+  background-color: inherit;
 }
 
 .dropdown:hover .content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: white;}
+.dropdown:hover .dropbtn {background-color: inherit;;}
 
 a {
   font-size: 20px;
@@ -48,7 +49,7 @@ a {
 }
 
 a:hover {
-  font-size: 150%;
+  font-size: 130%;
   cursor: pointer;
 
 }
@@ -57,7 +58,7 @@ a:hover {
   display: flex;
   justify-content: center;
   font-size: 55px;
-  color: #1E8B44;
+  color: #F00202;
   font-family: 'Merienda', 'cursive';
   margin-top: 10px;
 }
@@ -70,7 +71,7 @@ a:hover {
 
 #friedrice, #combo, #entree, #noodles {
   align-items: center;
-  color: white;
+  color: black;
   font-family: 'Julius Sans One', sans-serif;
   padding-top: 25px
 }
@@ -94,19 +95,19 @@ ul {
 }
 
 h1 {
-  color: #1E8B44;
+  color: #F00202;
   text-decoration: underline;
 }
 
 h2 {
-  color: #1E8B44;
+  color: black;
   word-spacing: 7px;
   padding-top: 5px;
 
 }
 
 h3 {
-  color: white;
+  color: black;
   padding-top: 10px;
   padding-bottom: 10px;
 }
