@@ -103,12 +103,13 @@ ul {
 }
 
 h1 {
-  color: #1E8B44;
+  color: #F00202;
   padding-top: 7px;
   text-decoration: underline;
 }
 
 h2 {
+  font-weight: bolder;
   word-spacing: 5px;
   padding-top: 7px;
   color: black;
