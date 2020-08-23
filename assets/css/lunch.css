@@ -42,7 +42,7 @@ body {
 
 .dropdown:hover .content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: inherit;;}
+.dropdown:hover .dropbtn {background-color: inherit;}
 
 a {
   font-size: 20px;
