@@ -36,12 +36,12 @@ body {
 }
 
 .content #drp:hover {
-  background-color: inherit;
+  background-color: black;
 }
 
 .dropdown:hover .content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: inherit;}
+.dropdown:hover .dropbtn {background-color: black;}
 
 a:hover {
   font-size: 130%;
