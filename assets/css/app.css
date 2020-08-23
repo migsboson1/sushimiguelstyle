@@ -33,6 +33,7 @@ body {
   color: #F00202;
   font-family: 'Merienda', 'cursive';
   display: block;
+  margin: 10px;
 }
 
 .content #drp:hover {
