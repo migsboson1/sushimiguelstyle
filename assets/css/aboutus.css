@@ -20,6 +20,9 @@ body {
   background-color: black;
   border: none;
   font-family: 'Merienda', 'cursive';
+  padding: 10px;
+  margin: 10px;
+
 }
 
 .content {
