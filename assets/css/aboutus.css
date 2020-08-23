@@ -17,7 +17,7 @@ body {
 .dropbtn {
   color: #F00202;
   font-size: 20px;
-  background-color: inherit;
+  /* background-color: ; */
   border: none;
   font-family: 'Merienda', 'cursive';
 }
@@ -25,7 +25,7 @@ body {
 .content {
   display: none;
   position: absolute;
-  background-color: inherit;
+  background-color: black;
   min-width: inherit;
 }
 
