@@ -28,7 +28,7 @@ body {
 .content {
   display: none;
   position: absolute;
-  /* background-color: black; */
+  background-color: inherit;
   min-width: inherit;
 }
 
@@ -57,7 +57,6 @@ header {
   display: flex;
   justify-content: center;
   color: #F00202;
-  /* color: #1E8B44; */
   margin: 5px;
   font-size: 55px;
   font-family: 'Merienda', 'cursive';
@@ -79,13 +78,13 @@ header {
 }
 
 h4 {
-  /* color: #1E8B44; */
+  color: black;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 120%;
 }
 
 article {
-  /* color: #F00202; */
+  color: black;
   font-size: 150%;
   font-family: 'Julius Sans One', sans-serif;
 

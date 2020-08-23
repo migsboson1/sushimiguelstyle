@@ -1,11 +1,12 @@
 body {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 0;
 
 }
 
 .Navbar {
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,7 +18,7 @@ body {
 .dropbtn {
   color: #F00202;
   font-size: 20px;
-  background-color: black;
+  background-color: inherit;
   border: none;
   font-family: 'Merienda', 'cursive';
 }
@@ -25,7 +26,7 @@ body {
 .content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: inherit;
   min-width: inherit;
 }
 
@@ -36,12 +37,12 @@ body {
 }
 
 .content #drp:hover {
-  background-color: white;
+  background-color: inherit;
 }
 
 .dropdown:hover .content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: white;}
+.dropdown:hover .dropbtn {background-color: inherit;}
 
 a {
   color: #F00202;
