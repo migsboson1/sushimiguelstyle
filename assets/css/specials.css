@@ -2,17 +2,17 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-
+  font-family: 'Merienda', cursive;
 }
 
 .Navbar {
   background-color: black;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 20px;
-  overflow: hidden;
+  gap: 15px;
 }
 
 .dropbtn {
@@ -20,128 +20,146 @@ body {
   font-size: 20px;
   background-color: inherit;
   border: none;
-  font-family: 'Merienda', 'cursive';
+  font-family: 'Merienda', cursive;
+  cursor: pointer;
 }
 
 .content {
   display: none;
   position: absolute;
   background-color: black;
-  min-width: inherit;
+  min-width: 160px;
+  z-index: 1000;
 }
 
 .content #drp {
   color: #F00202;
-  font-family: 'Merienda', 'cursive';
+  font-family: 'Merienda', cursive;
   display: block;
-  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .content #drp:hover {
-  background-color: inherit;
+  background-color: #222;
 }
 
-.dropdown:hover .content {display: block;}
+.dropdown:hover .content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: inherit;}
+.dropdown:hover .dropbtn {
+  background-color: inherit;
+}
 
 a {
   color: #F00202;
   font-size: 20px;
   font-family: 'Merienda', cursive;
+  text-decoration: none;
 }
+
 a:hover {
-  font-size: 150%;
+  font-size: 110%;
   cursor: pointer;
 }
 
 header {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: #1E8B44;
-  margin: 5px;
-  font-size: 55px;
-  font-family: 'Merienda', 'cursive';
-  margin-top: 10px;
-
+  margin: 20px auto 10px;
+  font-size: 48px;
+  font-family: 'Merienda', cursive;
 }
-.sushirolls {
+
+#note {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Sushi Rolls Container */
+.sushicontainer {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 55px;
-  margin-right: 55px;
-  margin-top: 5px;
-  margin-bottom: 35px;
-
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
 }
 
-
-img {
-  width: 380px;
-  height: 280px;
-  max-width: 100%;
-  max-height: auto;
+.roll {
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  max-width: 90vw;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 10px;
 }
 
-img:hover {
+img.rolls {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
   cursor: pointer;
+}
+
+img.rolls:hover {
   opacity: 0.8;
 }
 
 .info {
-  box-sizing: border-box;
-  background: black;
-  width: 100%;
+  background-color: black;
+  padding: 10px;
   display: none;
-}
-
-h3 {
-  color: #1E8B44;
-  font-family: 'Julius Sans One', sans-serif;
 }
 
 h2 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
-
+  font-size: 20px;
 }
 
+h3 {
+  color: #1E8B44;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
+}
+
+/* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   .Navbar {
-    padding: 2%;
-  }
-  #navitem {
-    /* Scale down the navbar items to 10% of original size */
-    display: flex;
-    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
 
-  a, .dropbtn, .content {
-    font-size: 65%;
+  .dropbtn, .content #drp, a {
+    font-size: 16px;
   }
 
   header {
-    display: flex;
-    font-size: 120%;
+    font-size: 28px;
   }
 
-  /* The sushi rolls container dictates the orientation of the images it contains
-  I changed the orientation to a column when users are using a mobile device*/
-  .sushirolls{
-    display: flex;
-    flex-direction: column;
-    font-size: 60%;
-   }
+  #note {
+    font-size: 14px;
+  }
 
-   .roll {
-     width: auto;
-   }
-  img {
-    width: 100%;
-    max-width: 180px;
+  .sushicontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .roll {
+    width: 95%;
+    margin: 10px 0;
+  }
+
+  img.rolls {
+    max-width: 100%;
     height: auto;
   }
 }
+
